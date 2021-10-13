@@ -23,10 +23,10 @@ class EmployeeImpl extends Employee {
   println(s"$emp, $startTime, $endTime")}
 }
 
-object main extends App {
-  val obj= new EmployeeImpl
-  obj.attendance(obj.User("Manager"), "10.00 AM", 5)
-  obj.Manager(FirstName = "Sona", LastName = "K", Salary = 15000, empid = "12")
-  obj.attendance(obj.User("President"))
-  obj.President("Sonali", "Kumari", 15000, "15")
-}
+//object main extends App {
+//  val obj= new EmployeeImpl
+//  obj.attendance(obj.User("Manager"), "10.00 AM", 5)
+//  obj.Manager(FirstName = "Sona", LastName = "K", Salary = 15000, empid = "12")
+//  obj.attendance(obj.User("President"))
+//  obj.President("Sonali", "Kumari", 15000, "15")
+//}
